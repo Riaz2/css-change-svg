@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SVGs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link id="pagestyle" rel="stylesheet" href="default.css">
+    <script>
+    	function ColorChange(sheet){
+    		document.getElementById('pagestyle').setAttribute('href', sheet);
+    	}
+    </script>
+  </head>
+  <body>
+
+    <section>
+      <svg class="title" viewBox="0 0 320 40">
+        <text x="50%" y="50%" fill="#033494" font-size="25" text-anchor="middle">SVGs are awesome!!!</text>
+      </svg>
+
+      <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle class="svg1" cx="50" cy="50" r="48" fill="#2882f9" stroke="#000" stroke-width="3" />
+      </svg>
+
+      <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle class="svg2" cx="50" cy="50" r="48" fill="#f8ff6a" stroke="#000" stroke-width="3" />
+        <circle class="svg2_1" cx="50" cy="50" r="24" fill="#fff02a" stroke="#000" stroke-width="3" />
+      </svg>
+
+      <svg width="120" height="100" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+        <ellipse class="svg3" cx="60" cy="50" rx="58" ry="48" fill="#ff5e5e" style="fill:;stroke:#000;stroke-width:3" />
+      </svg>
+
+      <svg width="100" height="100" viewBox="0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect class="svg4" width="98" height="98" x="1" y="1" fill="#10BBAB" stroke="#000" stroke-width="3" />
+      </svg>
+
+      <svg width="110" height="110" viewBox="0 0 150 110"  xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect class="svg5" width="100" height="100" x="15" y="5" fill="#b64eff" stroke="#000" stroke-width="3" transform="rotate(45 70 70)" />
+      </svg>
+
+      <svg width="100" height="100" viewBox="0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect class="svg6" width="96" height="96" x="2" y="2" rx="20" ry="20" fill="#ff36df" style="stroke:#000;stroke-width:3;opacity:0.9" />
+      </svg>
+
+      <svg width="130" height="100" viewBox="0 0 130 100" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect class="svg7" width="126" height="96" x="2" y="2" fill="#a1fc6f" style="fill:;stroke:#000;stroke-width:3;opacity:0.9" />
+      </svg>
+
+     
+    </section>
+    <br>
+    <section>
+       <svg class="title" viewBox="0 0 320 40">
+        <text x="50%" y="50%" fill="#033494" font-size="25" text-anchor="middle">Color Bttons</text>
+      </svg>
+   	
+    <button class="cbtn" id="Tomato" onclick="ColorChange('Tomato.css')"></button>
+    <button class="cbtn" id="Orange" onclick="ColorChange('Orange.css')"> </button>
+    <button class="cbtn" id="DodgerBlue" onclick="ColorChange('DodgerBlue.css')"></button>
+    <button class="cbtn" id="MediumSeaGreen" onclick="ColorChange('MediumSeaGreen.css')"></button>
+    <button class="cbtn" id="Gray" onclick="ColorChange('Gray.css')"></button>
+    <button class="cbtn" id="SlateBlue" onclick="ColorChange('SlateBlue.css')"></button>
+    <button class="cbtn" id="Violet" onclick="ColorChange('Violet.css')"></button>
+    <button class="cbtn" id="LightGray" onclick="ColorChange('LightGray.css')"></button>
+	</section>
+  </body>
+</html>
